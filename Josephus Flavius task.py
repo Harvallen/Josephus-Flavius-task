@@ -14,7 +14,7 @@ while len(item_list) > 2:
     else: 
         if 'd' not in item_list:
             continue                                         
-    new_l = item_list[-count:] + item_list[:-count]
+    new_l = item_list[-count:] + item_list[:-count]         # list compounder
     item_list = [c for c in new_l if c != 'd']
     if len(item_list) < k:
         count = 0
