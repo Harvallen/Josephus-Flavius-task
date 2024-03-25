@@ -22,4 +22,4 @@ if k % 2 != 0:
     res = item_list[::-1]
 else:
     res = item_list
-print(res[0])
+print(res[0]) # res
